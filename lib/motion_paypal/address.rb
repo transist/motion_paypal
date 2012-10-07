@@ -1,5 +1,5 @@
 module MotionPaypal
-  class Address < PayPalAddress
+  module Address
     # attr_accessor :name, :street1, :street2, :city, :state, :postalcode, :countrycode
   end
 end

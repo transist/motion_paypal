@@ -1,5 +1,5 @@
 module MotionPaypal
-  class AdvancedPayment < PayPalAdvancedPayment
+  module AdvancedPayment
     # attr_accessor 'paymentCurrency', 'receiverPaymentDetails', 'merchantName', 'ipnUrl', 'memo'
   end
 end

@@ -1,5 +1,5 @@
 module MotionPaypal
-  module Payment < PayPalPayment
+  module Payment
     # Your code goes here...
   end
 end

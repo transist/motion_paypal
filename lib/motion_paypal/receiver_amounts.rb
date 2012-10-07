@@ -1,5 +1,5 @@
 module MotionPaypal
-  class ReceiverAmounts < PayPalReceiverAmounts
+  module ReceiverAmounts
     # Your code goes here...
   end
 end

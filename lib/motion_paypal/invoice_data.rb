@@ -1,5 +1,5 @@
 module MotionPaypal
-  class InvoiceData < PayPalInvoiceData
+  module InvoiceData
     # Your code goes here...
   end
 end

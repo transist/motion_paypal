@@ -1,5 +1,5 @@
 module MotionPaypal
-  class Paypal < PayPal
+  class Paypal
     
   end
 end

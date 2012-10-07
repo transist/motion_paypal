@@ -1,5 +1,5 @@
 module MotionPaypal
-  class PreapprovedDetails < PayPalPreapprovedDetails
+  module PreapprovedDetails
     # Your code goes here...
   end
 end
