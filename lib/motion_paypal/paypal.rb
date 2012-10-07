@@ -1,4 +1,4 @@
-module MotionPaypal
+module Paypal
   class Paypal
     
   end

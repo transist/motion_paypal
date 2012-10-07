@@ -1,4 +1,4 @@
-module MotionPaypal
+module Paypal
   module ReceiverAmounts
     # Your code goes here...
   end

@@ -1,6 +1,6 @@
 require "motion_paypal/version"
 
-module MotionPaypal
+module Paypal
   # Your code goes here...
 end
 
