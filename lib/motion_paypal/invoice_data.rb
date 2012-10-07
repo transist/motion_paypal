@@ -1,5 +1,6 @@
 module Paypal
-  module InvoiceData
+  class InvoiceData
+    include Options
     # Your code goes here...
   end
 end

@@ -1,5 +1,6 @@
 module Paypal
-  module Address
-    # attr_accessor :name, :street1, :street2, :city, :state, :postalcode, :countrycode
+  class Address
+    include Options
+    attr_accessor :name, :street1, :street2, :city, :state, :postalcode, :countrycodej
   end
 end

@@ -1,5 +1,6 @@
 module Paypal
-  module Payment
+  class Payment
+    include Options
     # Your code goes here...
   end
 end

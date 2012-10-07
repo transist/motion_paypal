@@ -1,5 +1,9 @@
 module Paypal
-  module Base
-    # attr_accessor :name, :street1, :street2, :city, :state, :postalcode, :countrycode
+  class Base
+    include Options
+    
+    def self.from_json(json)
+      new(::BW::JSON.parse(json))
+    end
   end
 end

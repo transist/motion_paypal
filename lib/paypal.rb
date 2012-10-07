@@ -5,7 +5,8 @@ module Paypal
 end
 
 
-['address', 
+['options', 
+ 'address', 
  'advanced_payment', 
  'amounts',
  'invoice_data',

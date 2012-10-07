@@ -1,5 +1,6 @@
 module Paypal
-  module InvoiceItem
+  class InvoiceItem
+    include Options
     # Your code goes here...
   end
 end

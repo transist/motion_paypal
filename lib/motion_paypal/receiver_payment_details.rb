@@ -1,5 +1,6 @@
 module Paypal
-  module ReceiverPaymentDetails
+  class ReceiverPaymentDetails
+    include Options
     # Your code goes here...
   end
 end
